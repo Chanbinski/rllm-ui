@@ -1,0 +1,4 @@
+[submodule "backend/rllm"]
+	path = backend/rllm
+	url = https://github.com/Chanbinski/rllm.git
+	branch = rllm-ui-integration

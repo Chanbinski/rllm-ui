@@ -1,0 +1,51 @@
+.env
+.playwright-mcp/
+
+# Claude Code related
+.claude/
+CLAUDE.md
+docs/
+
+tests/
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+rllm_ui.db
+
+# Logs
+*.log
+backend/api/backend.log
+
+# Node/Bun
+node_modules/
+.pnpm-store/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+coverage/
+.coverage
